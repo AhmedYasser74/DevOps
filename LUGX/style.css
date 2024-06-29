@@ -1,0 +1,222 @@
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.header{
+    background-color: #1A7FF9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 80px;
+}
+.links a{
+    font-size: 20px;
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+}
+.links a:hover{
+    background-color: #1A7FF9;
+}
+
+.button{
+    border: none;
+    background-color: #EE626B;;
+    
+    color: white;
+    padding: 20px;
+    border-radius: 30px;
+    transition: .3s;
+    cursor: pointer;
+    font-weight: 900;
+    
+}
+.button:hover{
+    background-color: #9E4147;;
+}
+
+.layout-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1A7FF9;
+    padding: 30px 30px;
+    border-radius: 0px 0px 100px 100px;
+}
+#Welcome{
+    color: white;
+    font-size: 30px;
+}
+.layout-1content{
+    width: 500px;
+    padding: 0px 10px 00px 10px;
+}
+.layout-1content h1{
+color: white;
+font-size: 40px;
+width: 600px;
+}
+
+.layout-1 img{
+    width: 350px;
+   border-radius: 30px;
+    }
+
+.search input {
+/* margin-top: 60px; */
+padding: 0px 60px 0px 20px;
+font-size: 30px;
+border-radius: 30px;
+border: none;
+outline: none;
+}
+
+.search{
+    margin-top: 100px;
+display: flex;
+
+justify-content: space-between;
+
+}
+.search button{
+    position: relative;
+    right: 90px;
+}
+
+.layout2-header ,.mostplayed-header{
+    padding: 10px 30px 0px 30px;
+margin-top: 100px;
+}
+
+.trending-games-header,.most-played-headerInfo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card img{
+    width: 300px;
+    border-radius: 30px 30px 0px 0px;
+
+}
+.card{
+    width: 300px;
+    padding: 30px 0px 30px 30px;
+    
+}
+.card-content{
+    position: relative;
+    bottom: 4px;
+    margin-bottom: 0px;
+   
+display: flex;
+justify-content: space-between;
+align-items: center;
+background-color: #EEEEEE;;
+padding:30px 20px 20px 20px;
+border-radius: 0px 0px 20px 20px;
+
+}
+
+.card-content img{
+    width: 50px;
+}
+.card-breif span{
+    margin-top: 0;
+}
+.cards{
+    display: flex;
+  
+}
+
+
+.most-played-headerInfo button{
+    position: relative;
+    right: 30px;
+}
+#mostplayed-img{
+   
+    
+    border-radius: 20px 20px 20px 20px;
+}
+.mostplayed-header{
+    padding: 45px 50px 0px 50px;
+}
+
+.mostplayed-card{
+   margin-top: 30px;
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+  padding: 10px;
+
+  text-align: center;
+  
+
+}
+.mostplayed-card div,button{
+padding-top: 20px;
+}
+
+.mostplayed{
+    background-color: #EEEEEE;
+    border-radius: 80px;
+    
+}
+
+.mostplayed-cards{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+
+.topcategories-header{
+    text-align: center;
+    margin-top: 200px;
+}
+
+.categories{
+
+    padding: 30px;
+  display: flex;
+ gap: 20px;
+ justify-content: center;
+margin-bottom: 100px;
+}
+
+.category .category-image{
+border-radius: 30px;
+position: relative;
+top: -23px;
+}
+
+
+.category{
+    display: flex;
+    flex-direction: column;
+   
+   
+}
+.category .genre{
+    background-color: #0171F9;
+    text-align: center;
+    padding: 30px;
+    color: white;
+    font-weight: 500;
+    border-radius: 30px 30px 0px 0px;
+  
+}
+
+.footer h3{
+text-align: center;
+padding:60px 0px  60px 0px;
+background-color: #0171F9;
+margin: 0;
+color: white;
+border-radius: 70px 70px 0px 0px;
+}
